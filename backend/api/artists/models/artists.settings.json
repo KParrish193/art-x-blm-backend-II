@@ -23,11 +23,13 @@
     },
     "blackArtist": {
       "type": "boolean",
-      "required": true
+      "required": false,
+      "default": false
     },
     "exchange": {
       "type": "boolean",
-      "required": true
+      "required": false,
+      "default": false
     },
     "bio": {
       "type": "richtext",
@@ -70,6 +72,27 @@
     },
     "printID": {
       "collection": "prints"
+    },
+    "pronouns": {
+      "type": "string"
+    },
+    "medium": {
+      "type": "string"
+    },
+    "donation": {
+      "type": "integer"
+    },
+    "location": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "otherSocial": {
+      "type": "string"
     }
   }
 }
