@@ -93,6 +93,9 @@
     },
     "otherSocial": {
       "type": "string"
+    },
+    "poc": {
+      "type": "boolean"
     }
   }
 }
